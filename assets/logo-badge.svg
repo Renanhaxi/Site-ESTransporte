@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D4AF37"/>
+      <stop offset="50%" stop-color="#BF8D2C"/>
+      <stop offset="100%" stop-color="#F2D06B"/>
+    </linearGradient>
+    <linearGradient id="navyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#07192C"/>
+      <stop offset="100%" stop-color="#0E2F54"/>
+    </linearGradient>
+    <filter id="subtleShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#subtleShadow)">
+    <!-- Letra E estilizada em perspectiva de velocidade -->
+    <path d="M 60 40 L 210 40 C 235 40 248 52 240 70 L 235 80 C 230 92 215 96 195 96 L 125 96 L 118 112 L 180 112 C 198 112 205 120 200 132 L 195 142 C 190 154 176 158 160 158 L 95 158 L 88 174 L 215 174 C 235 174 246 186 240 202 L 235 210 L 40 210 C 20 210 12 198 18 182 L 48 58 C 52 46 64 40 60 40 Z" fill="url(#navyGrad)"/>
+
+    <!-- Pista de Rodovia curva com faixa asfáltica dentro do E / S -->
+    <path d="M 35 155 Q 140 100 240 108 Q 330 115 450 65" fill="none" stroke="#07192C" stroke-width="26" stroke-linecap="round"/>
+    <!-- Linhas douradas de contorno da pista -->
+    <path d="M 35 142 Q 140 87 240 95 Q 330 102 450 52" fill="none" stroke="url(#goldGrad)" stroke-width="5" stroke-linecap="round"/>
+    <path d="M 35 168 Q 140 113 240 121 Q 330 128 450 78" fill="none" stroke="url(#goldGrad)" stroke-width="4" stroke-linecap="round"/>
+    <!-- Faixa pontilhada central branca da estrada -->
+    <path d="M 40 155 Q 140 100 240 108 Q 330 115 445 65" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-dasharray="10 8" stroke-linecap="round"/>
+
+    <!-- Letra S estilizada veloz -->
+    <path d="M 310 40 L 440 40 C 465 40 478 54 472 74 L 468 86 C 460 108 438 122 410 126 C 438 132 450 148 444 170 L 438 190 C 430 212 410 222 380 222 L 255 222 C 235 222 225 212 230 196 L 236 182 C 242 166 256 160 275 160 L 375 160 C 388 160 395 154 398 144 L 400 136 C 402 126 394 120 380 120 L 325 120 C 285 120 268 106 276 80 L 282 60 C 288 46 300 40 310 40 Z" fill="url(#navyGrad)"/>
+  </g>
+</svg>
